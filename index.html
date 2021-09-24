@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Piano</title>
+</head>
+<body>
+<div class="piano">
+    
+        <h1>Piano Musical</h1>
+        <div class="box">
+                <div data-key="keyq" class="tecla"><a href="">DÓ <br>(Q)</a>
+                    <div class="cima"></div>
+                </div>
+                <div data-key="keyw" class="tecla"><a href="">RE <br>(W)</a>
+                    <div class="cima"></div></div>
+              
+                <div data-key="keye" class="tecla"><a href="">MI <br>(E)</a>
+                </div>
+                <div data-key="keya" class="tecla"><a href="">FA <br>(A)</a>
+                    <div class="cima"></div></div>
+                <div data-key="keys" class="tecla"><a href="">SOL <br>(S)</a>
+                    <div class="cima"></div></div>
+                <div data-key="keyd" class="tecla"><a href="">LA <br>(D)</a>
+                    <div class="cima"></div></div>
+                <div data-key="keyz" class="tecla"><a href="">SI <br>(Z)</a></div>
+        </div>
+        <input type="text" name="texto" id="input" placeholder="Faça uma composição">
+<button class="button">Tocar</button>
+<footer><p>Criado por Alessandro</p></footer>
+</div>
+
+    <audio id="s_keyq" src="sound/do.wav"></audio>
+    <audio id="s_keyw" src="sound/re.wav"></audio>
+    <audio id="s_keye" src="sound/mi.wav"></audio>
+    <audio id="s_keya" src="sound/fa.wav"></audio>
+    <audio id="s_keys" src="sound/sol.wav"></audio>
+    <audio id="s_keyd" src="sound/la.wav"></audio>
+    <audio id="s_keyz" src="sound/si.wav"></audio>
+
+   
+
+    <script src="js.js"></script>
+</body>
+</html>
